@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{>headerLinks}}
+</head>
+<body>
+    <!-- Header -->
+    {{>navbar}}
+    <!-- Home Page Content -->
+    <div class="container-fluid main_header">
+        <div class="row">
+            <div class="col-md-10 col-12 mx-auto">
+                <div class="row">
+                    <div class="col-md-12 col-12 main_header_left align-items-center errpg">
+                        <figure>
+                            <img src="images/404.jpg" alt="" class="img-fluid errimg" title="404Page">
+                        </figure>
+                        <h1>{{errorMsg}}</h1>
+                        <a href="/"><button>Back to Home Page</button></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Footer -->
+    {{>footer}}
+</body>
+</html>
