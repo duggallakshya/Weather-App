@@ -1,7 +1,6 @@
 {
   "name": "knowtheweatherwebsite",
   "version": "1.0.0",
-  "description": "",
   "main": "app.js",
   "dependencies": {
     "express": "^4.17.2",
@@ -11,8 +10,17 @@
   "devDependencies": {},
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "node src/app.js"
+    "start": "nodemon src/app.js"
   },
   "author": "Lakshya Duggal",
-  "license": "ISC"
+  "license": "ISC",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/duggallakshya/Weather-App.git"
+  },
+  "bugs": {
+    "url": "https://github.com/duggallakshya/Weather-App/issues"
+  },
+  "homepage": "https://github.com/duggallakshya/Weather-App#readme",
+  "description": ""
 }

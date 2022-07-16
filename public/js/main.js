@@ -11,7 +11,7 @@ const weekDays = ["Sun","Mon","Tues","Wed","Thur","Fri","Sat"];
 var months = ["Jan", "Feb", "Mar", "Apr", "May", "Jun", "July", "Aug", "Sept", "Oct", "Nov", "Dec"];
 const d = new Date();
 day.innerText = weekDays[d.getDay()];
-today_date.innerText = d.getDate()+" "+months[d.getMonth()+1];
+today_date.innerText = d.getDate()+" "+months[d.getMonth()];
 
 
 const getInfo = async(event) => {
